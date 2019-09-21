@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/craft_essences_view"
+    android:background="@drawable/general_background"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="horizontal"
+        android:id="@+id/scroll_craft_essences_list_view">
+
+        <LinearLayout
+            android:id="@+id/craft_essences_list_view"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <Button
+        android:id="@+id/btn_back_view_craft_essences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_background_color"
+        android:text="BACK "
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

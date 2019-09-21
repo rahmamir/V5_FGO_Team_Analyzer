@@ -1,0 +1,43 @@
+{
+  "formation-list": [{
+          "party-name": "Buster Crit",
+          "score": {
+            "overall-score": 4,
+            "formation-advantages": ".....",
+            "formation-disadvantages": ".....",
+            "formation-recommandations": "....."
+          },
+          "formation-servant-list": [{
+              "name": "Altria Pendragon",
+              "attack": 10000.0,
+              "health": 13000.0,
+              "cost": 16.0,
+              "defence": 10.0,
+              "star-absorption": 90.0,
+              "star-generation": 40.0,
+              "np-charge-attack": 70.0,
+              "np-charge-defence": 80.0
+            }],
+            "servant-position": [{
+              "position-1": 5
+              },
+              {
+                "position-2": 5
+              },
+              {
+                "position-3": 5
+              }],
+              "craft-essence-position": [{
+                "position-1": 5
+              },
+
+                {
+                  "position-2": 5
+                },
+
+                {
+                  "position-3": 5
+                }]
+
+  }
+]}

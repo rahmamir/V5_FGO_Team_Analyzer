@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/general_background"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="horizontal"
+        android:id="@+id/scroll_servants_list_view"
+        tools:context=".ViewCharecters">
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:id="@+id/servants_list_view"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <Button
+        android:id="@+id/btn_back_view_charecters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_background_color"
+        android:text="BACK "
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/servant_view"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark">
+
+                <ImageView
+                    android:id="@+id/servant_image_small"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/servant_1_small" />
+
+                <TextView
+                    android:id="@+id/servant_name_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cu Chulainn"
+                    android:background="@drawable/colors"
+                    android:textAlignment="center"
+                    android:textAppearance="@android:style/TextAppearance.Small"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp" />
+
+    </LinearLayout>
+    -->

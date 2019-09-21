@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">V5_FGO_Team_Analyzer</string>
+
+    <string-array name="available_backgrounds">
+        <item name="back_0">Default</item>
+        <item name="back_1">Avengers_Banquet</item>
+        <item name="back_2">Wrath_of_the_King</item>
+        <item name="back_3">The_Fate_of_Good</item>
+    </string-array>
+
+    <string-array name="servant_list">
+        <item name="cu_chulainn">Cú_Chulainn</item>
+        <item name="leonardo_da_vinci">Leonardo_Da_Vinci</item>
+        <item name="lancelot_saber">Lancelot_(Saber)</item>
+        <item name="ozymandias">Ozymandias</item>
+        <item name="emiya_assassin">Emiya_(Assassin)</item>
+        <item name="jeanne_d_arc_alter">Jeanne_d\'Arc_(Alter)</item>
+        <item name="cu_chulainn_alter">Cú_Chulainn_(Alter)</item>
+        <item name="karna">Karna</item>
+        <item name="tamamo_no_mae">Tamamo-no-Mae</item>
+        <item name="jeanne_d_arc">Jeanne_d\'Arc</item>
+        <item name="lancelot">Lancelot</item>
+        <item name="zhuge_liang_lord_el_melloi">Zhuge_Liang_(Lord_El-Melloi_II)</item>
+        <item name="gilgamesh">Gilgamesh</item>
+        <item name="emiya">EMIYA</item>
+        <item name="altria_pendragon">Altria_Pendragon</item>
+    </string-array>
+
+    <string-array name="skill_list">
+        <item name="cu_chulainn_s1">Battle Continuation A</item>
+        <item name="cu_chulainn_s2">Protection from Arrows B</item>
+        <item name="cu_chulainn_s3">Disengage C</item>
+        <item name="leonardo_da_vinci_s1">Inherent Wisdom EX</item>
+        <item name="leonardo_da_vinci_s2">Golden Rule (Body) B</item>
+        <item name="leonardo_da_vinci_s3">Pioneer of the Stars EX</item>
+        <item name="lancelot_saber_s1">Knight of the Lake A</item>
+        <item name="lancelot_saber_s2">Eternal Arms Mastery A+</item>
+        <item name="lancelot_saber_s3">Knight of Owner A++</item>
+        <item name="ozymandias_s1">Charisma B</item>
+        <item name="ozymandias_s2">Imperial Privilege A</item>
+        <item name="ozymandias_s3">Protection of the Sun God A+</item>
+        <item name="emiya_assassin_s1">Magecraft B</item>
+        <item name="emiya_assassin_s2">Affection of the Holy Grail A+</item>
+        <item name="emiya_assassin_s3">Scapegoat C</item>
+        <item name="jeanne_d_arc_alter_s1">Self-Modification EX</item>
+        <item name="jeanne_d_arc_alter_s2">Dragon Witch EX</item>
+        <item name="jeanne_d_arc_alter_s3">Ephemeral Dream A</item>
+        <item name="cu_chulainn_alter_s1">Madness of the Spirits A</item>
+        <item name="cu_chulainn_alter_s2">Protection from Arrows C</item>
+        <item name="cu_chulainn_alter_s3">Battle Continuation A</item>
+        <item name="karna_s1">Knowledge of the Deprived A</item>
+        <item name="karna_s2">Mana Burst (Flame) A</item>
+        <item name="karna_s3">Uncrowned Arms Mastership </item>
+        <item name="tamamo_no_mae_s1">Curse EX</item>
+        <item name="tamamo_no_mae_s2">Morph A</item>
+        <item name="tamamo_no_mae_s3">Fox\'s Wedding EX</item>
+        <item name="jeanne_d_arc_s1">Revelation A</item>
+        <item name="jeanne_d_arc_s2">True Name Revelation B</item>
+        <item name="jeanne_d_arc_s3">Divine Judgement A</item>
+        <item name="lancelot_s1">Eternal Arms Mastery A+</item>
+        <item name="lancelot_s2">Protection of the Spirits A</item>
+        <item name="lancelot_s3">Mana Reversal A</item>
+        <item name="zhuge_liang_lord_el_melloi_s1">Discerning Eye A</item>
+        <item name="zhuge_liang_lord_el_melloi_s2">Tactician\'s Advice A+</item>
+        <item name="zhuge_liang_lord_el_melloi_s3">Tactician\'s Command A+</item>
+        <item name="gilgamesh_s1">Charisma A+</item>
+        <item name="gilgamesh_s2">Golden Rule A</item>
+        <item name="gilgamesh_s3">Collector EX</item>
+        <item name="emiya_s1">Mind\'s Eye (True) B</item>
+        <item name="emiya_s2">Clairvoyance C</item>
+        <item name="emiya_s3">Magecraft C-</item>
+        <item name="altria_pendragon_s1">Charisma B</item>
+        <item name="altria_pendragon_s2">Mana Burst A</item>
+        <item name="altria_pendragon_s3">Intuition A</item>
+    </string-array>
+
+    <string-array name="craft_essence_list">
+        <item name="ce_1_">Iron Willed Training</item>
+        <item name="ce_2_">Volumen Hydragan</item>
+        <item name="ce_3_">Wizard and Priest</item>
+        <item name="ce_4_">Origin Bullet</item>
+        <item name="ce_5_">Golden Sumo</item>
+        <item name="ce_6_">Golden Carp</item>
+        <item name="ce_7_">His Rightful Place</item>
+        <item name="ce_8_">Maiden Leading Chaldea</item>
+        <item name="ce_9_">Millenium Tree</item>
+        <item name="ce_10_">Awakened Will</item>
+        <item name="ce_11_">Fragments of 2030</item>
+        <item name="ce_12_">Another Ending</item>
+        <item name="ce_13_">Victor of the Moon</item>
+        <item name="ce_14_">Black Grail</item>
+        <item name="ce_15_">Kaleidoscope</item>
+        <item name="ce_16_">Imaginary Element</item>
+        <item name="ce_17_">Imaginary Around</item>
+    </string-array>
+
+    <string-array name="craft_essence_effects_list">
+        <item name="ce_1_">Increase Defense</item>
+        <item name="ce_2_">Apply Invincible</item>
+        <item name="ce_3_">Increase NP Strength</item>
+        <item name="ce_4_">Attack Up</item>
+        <item name="ce_5_">Attack Up</item>
+        <item name="ce_6_">Critical Stars Up</item>
+        <item name="ce_7_">NP Charge Up, Critical Stars Up</item>
+        <item name="ce_8_">Buster Up, Critical Stars Up</item>
+        <item name="ce_9_">Increase HP</item>
+        <item name="ce_10_">Increase Defense, Arts, Buster, Quick</item>
+        <item name="ce_11_">Critical Stars Up</item>
+        <item name="ce_12_">Arts Up, Critical Damage Up</item>
+        <item name="ce_13_">Buster Up, Critical Damage Up</item>
+        <item name="ce_14_">Increase NP Strength</item>
+        <item name="ce_15_">Increase NP Charge</item>
+        <item name="ce_16_">Increase NP Charge</item>
+        <item name="ce_17_">Quick Up</item>
+    </string-array>
+
+
+    <integer-array name="skill_amount">
+        <item name="s1_1">2500</item>
+        <item name="s1_2">16</item>
+        <item name="s1_3">1500</item>
+        <item name="s2_1">2500</item>
+        <item name="s2_2">2500</item>
+        <item name="s2_3">2500</item>
+        <item name="s3_1">2500</item>
+        <item name="s3_2">2500</item>
+        <item name="s3_3">2500</item>
+        <item name="s4_1">2500</item>
+        <item name="s4_2">2500</item>
+        <item name="s4_3">2500</item>
+        <item name="s5_1">2500</item>
+        <item name="s5_2">2500</item>
+        <item name="s5_3">2500</item>
+        <item name="s6_1">2500</item>
+        <item name="s6_2">2500</item>
+        <item name="s6_3">2500</item>
+        <item name="s7_1">2500</item>
+        <item name="s7_2">2500</item>
+        <item name="s7_3">2500</item>
+        <item name="s8_1">2500</item>
+        <item name="s8_2">2500</item>
+        <item name="s8_3">2500</item>
+        <item name="s9_1">2500</item>
+        <item name="s9_2">2500</item>
+        <item name="s9_3">2500</item>
+        <item name="s10_1">2500</item>
+        <item name="s10_2">2500</item>
+        <item name="s10_3">2500</item>
+        <item name="s11_1">2500</item>
+        <item name="s11_2">2500</item>
+        <item name="s11_3">2500</item>
+        <item name="s12_1">2500</item>
+        <item name="s12_2">2500</item>
+        <item name="s12_3">2500</item>
+        <item name="s13_1">2500</item>
+        <item name="s13_2">2500</item>
+        <item name="s13_3">2500</item>
+        <item name="s14_1">2500</item>
+        <item name="s14_2">2500</item>
+        <item name="s14_3">2500</item>
+        <item name="s15_1">2500</item>
+        <item name="s15_2">2500</item>
+        <item name="s15_3">2500</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/save_formation1"
+        android:layout_width="580dp"
+        android:layout_height="180dp"
+        android:background="@drawable/colors"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/save_formation1_name"
+            android:background="@drawable/text_small_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save FIle 1"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/save_formation_1_score_and_images"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/save_formation1_servant1_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="260dp"
+                android:background="@drawable/text_background_color"
+                android:src="@drawable/servant_8" />
+            <ImageView
+                android:id="@+id/save_formation1_servant2_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/text_background_color"
+                android:src="@drawable/servant_9" />
+            <ImageView
+                android:id="@+id/save_formation1_servant3_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/text_background_color"
+                android:src="@drawable/servant_10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/save_formation1_operations"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/save_formation1_load"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="355dp"
+                android:background="@drawable/text_small_background"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:text="Load" />
+
+            <Button
+                android:id="@+id/save_formation1_delete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/text_small_background"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                android:text="Delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_item_skill_name"
+        android:title="skill_description"></item>
+    <item android:id="@+id/menu_item_skill_effects_values_1"
+        android:title=""></item>
+    <item android:visible="false"
+        android:id="@+id/menu_item_skill_effects_values_2"
+        android:title=""></item>
+    <item android:visible="false"
+        android:id="@+id/menu_item_skill_effects_values_3"
+        android:title=""></item>
+
+</menu>

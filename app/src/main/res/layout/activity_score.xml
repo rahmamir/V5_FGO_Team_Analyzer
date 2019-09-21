@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_background"
+    tools:context=".ScoreActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/layout_servants_formation"
+            android:layout_width="444dp"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_formation_servant_1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Servant Name"
+                    android:background="@drawable/colors"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/img_formation_servant_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:background="@drawable/text_background_color"
+                    android:src="@drawable/servant_8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_formation_servant_2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Servant Name"
+                    android:background="@drawable/colors"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/img_formation_servant_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:background="@drawable/text_background_color"
+
+                    android:src="@drawable/servant_4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_formation_servant_3_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Servant Name"
+                    android:background="@drawable/colors"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/img_formation_servant_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:background="@drawable/text_background_color"
+                    android:src="@drawable/servant_9" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/layout_servants_formation">
+
+                <LinearLayout
+                    android:layout_width="446dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="Advantages:"
+                        android:textColor="@color/color_white"
+                        android:background="@drawable/text_background_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txt_formation_advantages"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/colors"
+                        android:text="Advantages"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:text="Disadvantages:"
+                        android:textColor="@color/color_white"
+                        android:background="@drawable/text_background_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:id="@+id/txt_formation_disadvantages"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/colors"
+                        android:text="Disadvantages"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:text="Recommendations:"
+                        android:textColor="@color/color_white"
+                        android:background="@drawable/text_background_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/txt_formation_tips_recommendations"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/colors"
+                        android:textColor="@android:color/white"
+                        android:text="Tips and Changes" />
+                </LinearLayout>
+            </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="130dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="@+id/layout_servants_formation"
+        app:layout_constraintEnd_toEndOf="parent"                                                                                                             >
+
+        <TextView
+            android:id="@+id/txt_formation_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/colors"
+            android:text="9.0"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/formation_score_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/colors"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_marginTop="200dp"
+            android:textAlignment="center"
+            android:id="@+id/btn_score_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/colors"
+            android:textColor="@android:color/white"
+            android:text="BACK"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="485dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/servant_1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/general_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cu Chulainn"
+            android:background="@drawable/colors"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:background="@drawable/text_background_color"
+            android:layout_marginTop="10dp"
+            android:text="Level: 90" />
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/text_background_color"
+            android:text="Health: 9564.0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/text_background_color"
+            android:text="Attack: 7960.0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/text_background_color"
+            android:text="Cost: 7"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/text_background_color"
+            android:text="CHOOSE SERVANT"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>
